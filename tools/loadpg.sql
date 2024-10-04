@@ -23,4 +23,3 @@
 \copy web_sales from 'web_sales.dat' WITH (FORMAT csv, DELIMITER '|', NULL '', HEADER false);
 \copy catalog_sales from 'catalog_sales.dat' WITH (FORMAT csv, DELIMITER '|', NULL '', HEADER false);
 \copy store_sales from 'store_sales.dat' WITH (FORMAT csv, DELIMITER '|', NULL '', HEADER false);
-\copy customer from 'customer.dat' WITH (FORMAT csv, DELIMITER '|', NULL '');
